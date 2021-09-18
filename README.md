@@ -23,6 +23,8 @@ A continuación se detallan las entidades.
 | Modificar   | PATCH       |
 | Consulta    | GET         |
 
+definición endpoints [clientes](https://github.com/igcimonet/arquitectura-web-facu/blob/main/endpoints/clientes.md)
+
  ***card***
 | operaciones | métodos     |
 |-------------|-------------|
@@ -31,6 +33,8 @@ A continuación se detallan las entidades.
 | Consulta    | GET         |
 | Listar      | GET         |
 
+definición endpoints [tarjetas](https://github.com/igcimonet/arquitectura-web-facu/blob/main/endpoints/tarjetas.md)
+
  ***card_transactions***
 | operaciones | métodos     |
 |-------------|-------------|
@@ -38,3 +42,5 @@ A continuación se detallan las entidades.
 | Consulta    | GET         |
 | Listar      | GET         |
 
+
+definición endpoints [transacciones](https://github.com/igcimonet/arquitectura-web-facu/blob/main/endpoints/transacciones.md)
