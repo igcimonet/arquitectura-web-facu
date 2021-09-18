@@ -13,17 +13,27 @@ A continuación se detallan las entidades.
 | document    |             |                   |
 
 
-#### APIs - operaciones
+### recursos - métodos
 
-ABM customer
+ ***customer***
+| operaciones | métodos     |
+|-------------|-------------|
+| Alta        | POST        |
+| Baja        | DELETE      |
+| Modificar   | PUT         |
 
-ABMCL card
+ ***card***
+| operaciones | métodos     |
+|-------------|-------------|
+| Alta        | POST        |
+| Baja        | DELETE      |
+| Modificar   | PUT         |
+| Consulta    | GET         |
+| Listar      | GET         |
 
-ACL card_transaction
-
-**definiciones**
-- A: Alta
-- B: Baja
-- M: Modificación
-- C: Consulta
-- L: Lista
+ ***card_transactions***
+| operaciones | métodos     |
+|-------------|-------------|
+| Alta        | POST        |
+| Consulta    | GET         |
+| Listar      | GET         |
