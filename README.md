@@ -9,8 +9,8 @@ A continuación se detallan las entidades.
 | customer_id | customer_id | transaction_id    |
 | name        | card_number | card_number       |
 | lastname    | balance     | amount            |
-| card_number |             | transaction_type  |
-| document    |             |                   |
+| document    |             | transaction_type  |
+
 
 
 ### recursos - métodos
@@ -20,14 +20,14 @@ A continuación se detallan las entidades.
 |-------------|-------------|
 | Alta        | POST        |
 | Baja        | DELETE      |
-| Modificar   | PUT         |
+| Modificar   | PATCH       |
+| Consulta    | GET         |
 
  ***card***
 | operaciones | métodos     |
 |-------------|-------------|
 | Alta        | POST        |
 | Baja        | DELETE      |
-| Modificar   | PUT         |
 | Consulta    | GET         |
 | Listar      | GET         |
 
@@ -37,3 +37,4 @@ A continuación se detallan las entidades.
 | Alta        | POST        |
 | Consulta    | GET         |
 | Listar      | GET         |
+
