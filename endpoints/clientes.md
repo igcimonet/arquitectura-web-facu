@@ -3,7 +3,7 @@
 **POST** /customers
 
 *body*
-```
+```json
 {
     "name": "string",
     "lastname": "string",
@@ -18,7 +18,7 @@
 | 201         | operación exitosa |
 
 *body*
-```
+```json
 {
     "customer_id": 0
     "name": "string",
@@ -44,7 +44,7 @@
 **PATCH** /customers/{customer_id}
 
 *body*
-```
+```json
 {
     "name": "string",
     "lastname": "string",
@@ -59,7 +59,7 @@
 | 200         | operación exitosa |
 
 *body*
-```
+```json
 {
     "customer_id": 0
     "name": "string",
@@ -80,7 +80,7 @@
 | 201         | operación exitosa |
 
 *body*
-```
+```json
 {
     "customer_id": 0
     "name": "string",
