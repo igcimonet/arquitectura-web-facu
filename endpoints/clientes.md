@@ -20,7 +20,7 @@
 *body*
 ```json
 {
-    "customer_id": 0
+    "customer_id": 0,
     "name": "string",
     "lastname": "string",
     "document": 0
@@ -61,7 +61,7 @@
 *body*
 ```json
 {
-    "customer_id": 0
+    "customer_id": 0,
     "name": "string",
     "lastname": "string",
     "document": 0
@@ -82,7 +82,7 @@
 *body*
 ```json
 {
-    "customer_id": 0
+    "customer_id": 0,
     "name": "string",
     "lastname": "string",
     "document": 0
