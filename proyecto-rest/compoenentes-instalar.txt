@@ -1,0 +1,17 @@
+previo a esto debe estar instalado node.
+
+iniciar proyecto:  npm init --yes //crea package json que permite decribir el proyecto
+
+
+instalar express
+npm i express
+
+instalar moment
+npm i moment
+
+instalar nodemon
+npm i nodemon -D
+
+
+instalar underscore // libreria para recorrer arreglos.
+npm i underscore

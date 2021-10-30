@@ -1,0 +1,27 @@
+[
+    {
+        "customer_id": 1,
+        "card_number": "1111222233334444",
+        "balance": 57
+    },
+    {
+        "customer_id": 1,
+        "card_number": "5555666677778888",
+        "balance": 390
+    },
+    {
+        "customer_id": 2,
+        "card_number": "9999000011112222",
+        "balance": 415
+    },
+    {
+        "customer_id": 3,
+        "card_number": "3333444455556666",
+        "balance": 90
+    },
+    {
+        "customer_id": 3,
+        "card_number": "7777888899990000",
+        "balance": 25
+    }
+]
