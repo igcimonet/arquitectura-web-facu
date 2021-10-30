@@ -14,7 +14,7 @@
 {
     "customer_id": 0
     "card_number": "string"
-    "amount": 0.0,
+    "balance": 0.0,
 }
 ```
 
@@ -48,7 +48,7 @@
 {
     "customer_id": 0
     "card_number": "string"
-    "amount": 0.0,
+    "balance": 0.0,
 }
 ```
 
@@ -73,11 +73,11 @@
     [
         {
             "card_number": "string"
-            "amount": 0.0,
+            "balance": 0.0,
         },
         {
             "card_number": "string"
-            "amount": 0.0,
+            "balance": 0.0,
         }
     ]
 }
