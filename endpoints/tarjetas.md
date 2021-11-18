@@ -68,14 +68,14 @@
 *body*
 ```
 {
-    "customer_id": 0
-    "cards": 
     [
         {
+            "customer_id": 0,
             "card_number": "string"
             "balance": 0.0,
         },
         {
+            "customer_id": 0
             "card_number": "string"
             "balance": 0.0,
         }
