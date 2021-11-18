@@ -55,17 +55,19 @@
 *body*
 ```
 {
-    "card_number": "string"
-    "transactions":
     [
         {
+            "customer_id": 0,
             "transaction_id": 0,
-            "amount": 0.0,
+            "card_number": "string",
+            "amount": 0,
             "transaction_type": "string"
         },
         {
+            "customer_id": 0,
             "transaction_id": 0,
-            "amount": 0.0,
+            "card_number": "string",
+            "amount": 0,
             "transaction_type": "string"
         }
     ]
