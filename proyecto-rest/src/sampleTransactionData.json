@@ -1,0 +1,58 @@
+[
+    {
+        "customer_id": 1,
+        "transaction_id": 0,
+        "card_number": "1111222233334444",
+        "amount": 150,
+        "transaction_type": "debit"
+    },
+    {
+        "customer_id": 1,
+        "transaction_id": 6,
+        "card_number": "1111222233334444",
+        "amount": 300,
+        "transaction_type": "debit"
+    },
+    {
+        "customer_id": 1,
+        "transaction_id": 7,
+        "card_number": "1111222233334444",
+        "amount": 560,
+        "transaction_type": "debit"
+    },
+    {
+        "customer_id": 1,
+        "transaction_id": 1,
+        "card_number": "5555666677778888",
+        "amount": 0,
+        "transaction_type": "debit"
+    },
+    {
+        "customer_id": 2,
+        "transaction_id": 2,
+        "card_number": "9999000011112222",
+        "amount": 0,
+        "transaction_type": "debit"
+    },
+    {
+        "customer_id": 3,
+        "transaction_id": 3,
+        "card_number": "3333444455556666",
+        "amount": 0,
+        "transaction_type": "debit"
+    },
+    {
+        "customer_id": 3,
+        "transaction_id": 4,
+        "card_number": "7777888899990000",
+        "amount": 0,
+        "transaction_type": "debit"
+    },
+    {
+        "customer_id": 3,
+        "transaction_id": 5,
+        "card_number": "9999555522220000",
+        "amount": 0,
+        "transaction_type": "debit"
+    }
+]

@@ -23,5 +23,10 @@
         "customer_id": 3,
         "card_number": "7777888899990000",
         "balance": 25
+    },
+    {
+        "customer_id": 3,
+        "card_number": "9999555522220000",
+        "balance": 25
     }
 ]

@@ -28,8 +28,27 @@ router.get('/', function(req, res) {
 
 
 
+// obtener una lista de tarjetas
+router.get('/', function(req, res) {
+    const {customer_id} = req.params;//del objeto request.params obtengo el id - sería la URL
+    const card_id_aux = req.query;//del objeto request.query obtengo el id - sería la URL (query string)
+
+
+    console.log('card_id_aux:  ' + card_id_aux.card_number);
+    console.log(req.params);
+    if(card_id_aux.card_number) {
+        res.status(200).json(cards);
+    
+    } else{
+        res.status(404).json( {error:'error al procesar solicitud - consultar tarjeta'} );
+    }
+});
+
+
+
+
 // crear una tarjeta
-router.post('/', function(req, res) {
+router.post('/api/customers/:customer_id/cards', function(req, res) {
     const {customer_id} = req.params;//del objeto request.params obtengo el id - sería la URL
     
     console.log('customer_id:  ' + customer_id);
@@ -38,7 +57,7 @@ router.post('/', function(req, res) {
     if(card_number) {
         const newCard = {customer_id, ...req.body};
         console.log(newCard);
-        customers.push(newCard);// guardo el nuevo cliente en el array
+        //cards.push(newCard);// guardo el nuevo cliente en el array
         res.status(200).json(newCard);
     } else{
         res.status(404).json( {error:'error al procesar solicitud - crear tarjeta'} );
